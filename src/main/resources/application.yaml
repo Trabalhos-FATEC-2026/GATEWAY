@@ -7,7 +7,7 @@ spring:
   cloud:
     gateway:
       routes:
-        -
+
         # 1. Rota para o serviço de Autenticação (Login e Cadastro)
         - id: auth-service
           uri: http://localhost:8081
